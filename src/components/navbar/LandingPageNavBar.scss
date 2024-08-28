@@ -1,9 +1,10 @@
 ul.lpNavbar {
     margin-top: -5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: beige;
     text-align: center;
+    padding-inline-start: 0;
     button {
         width: 100%;
         border: none;

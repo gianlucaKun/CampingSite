@@ -52,4 +52,9 @@ button.menu-toggle {
     }
   }
   
-  
+  @media (width < 700px) {
+    .menu-toggle {
+      background-color: transparent;
+      color: #000;
+    }
+  }
