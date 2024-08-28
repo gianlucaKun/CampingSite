@@ -1,0 +1,55 @@
+h1.titleHeader {
+    background-color: orange;
+    margin: 0;
+}
+
+div.containerInfo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebebeb;
+    width: 100%;
+    background-image: url('../../assets/logoLP.png');
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    ul.containerContact {
+        display: flex;
+        margin: 0;
+        
+    }
+}
+.containerHeader {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+button.btnPhone {
+    background-color: rgb(249, 186, 67);
+    border: none;
+}
+button.btnBooking {
+    background-color: rgb(127, 126, 126);
+    border: none;
+}
+
+button.btnHeader {
+    font-size: 2rem;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    width: 80px
+}
+@media (width < 500px) {
+    div.containerInfo {
+        background-image: none;
+}
+button.btnHeader {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    width: fit-content;
+}
+}

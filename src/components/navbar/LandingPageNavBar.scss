@@ -1,0 +1,21 @@
+ul.lpNavbar {
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    text-align: center;
+    button {
+        width: 100%;
+        border: none;
+        padding: 15px 0;
+        h2 {
+            margin-bottom: 5px;
+        }
+        p {
+            margin-top: 0;
+        }
+    }
+    button.borderRight {
+        border-right: 1px solid #000;
+    }
+}
