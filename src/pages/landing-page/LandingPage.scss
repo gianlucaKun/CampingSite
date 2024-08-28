@@ -23,3 +23,17 @@
     z-index: 1;
     
 }
+
+@media (width < 500px ) {
+    .landingPage {
+        height: 60vh;
+    }
+    .wallpaper {
+        height: 100%;
+    }
+    .box-contenuto {
+        img {
+            width: 70%;
+        }
+    }
+}
