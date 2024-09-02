@@ -104,7 +104,7 @@ const Info: React.FC = () => {
           <div className="bungalow">
           <div className="containerTitleTentBungalow">
           <img src="https://www.valdisolecamping.it/_site/_img/_icon/bungalow.svg" alt="" className="img-fluid"/>
-              <p>BUNGALOW</p>
+              <p className="titleBungalow">BUNGALOW</p>
             </div>
             <div className="overBG">
               <button>scopri i bungalow</button>

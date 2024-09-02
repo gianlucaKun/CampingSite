@@ -47,12 +47,12 @@ div.infoContainer {
     background-image: url("../../assets/brown-wallpaper-22.jpg");
     background-size: cover;
     background-position: top right;
-    width: 220px;
+    width: 250px;
     height: 130px;
     margin-bottom: 20px;
     font-size: 1rem;
     color: #ddd;
-    clip-path: polygon(0% 0%,100% 0%,68% 95%,0% 95%);
+    clip-path: polygon(0% 0%,95% 0%,68% 95%,0% 95%);
     overflow: hidden;
     img {
         position: relative;
@@ -162,4 +162,32 @@ div.infoContainer {
             height: 100%;
         }
     }
+
+    .containerTitleTentBungalow {
+        
+        width: 180px;
+        height: 90px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        color: #ddd;
+        clip-path: polygon(0% 0%,100% 0%,68% 95%,0% 95%);
+        overflow: hidden;
+        img {
+            position: relative;
+            width: 40px;
+            left: 50px;
+            top: 15px;
+        }
+    p {
+        position: relative;
+        top: 5px;
+        left: 5px;
+        font-size: 19px;
+        line-height: 27px;
+    }
+    p.titleBungalow {
+        top: 9px;
+    }
+    }
+    
 }
