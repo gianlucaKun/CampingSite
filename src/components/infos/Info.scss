@@ -41,6 +41,35 @@ div.infoContainer {
         text-align: center;
     }
 }
+
+.containerTitleTentBungalow {
+    position: absolute;
+    background-image: url("../../assets/brown-wallpaper-22.jpg");
+    background-size: cover;
+    background-position: top right;
+    width: 220px;
+    height: 130px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #ddd;
+    clip-path: polygon(0% 0%,100% 0%,68% 95%,0% 95%);
+    overflow: hidden;
+    img {
+        position: relative;
+        left: 50px;
+        top: 15px;
+    }
+p {
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: bold;
+}
+}
+
+
 @media (width < 1050px) {
    
 div.infoContainer {

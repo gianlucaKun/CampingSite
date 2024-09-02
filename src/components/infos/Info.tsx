@@ -1,7 +1,6 @@
 import React from "react";
 import "./Info.scss";
 
-
 const Info: React.FC = () => {
   return (
     <div>
@@ -92,8 +91,25 @@ const Info: React.FC = () => {
       </div>
       <div>
         <div className="containerImgTentBungalow">
-            <div className="tent"><div className="overBG"><button>scopri le piazzole</button></div></div>
-            <div className="bungalow"><div className="overBG"><button>scopri i bungalow</button></div></div>
+          <div className="tent">
+            <div className="containerTitleTentBungalow">
+            <img src="https://www.valdisolecamping.it/_site/_img/_icon/piazzole.svg" alt="" className="img-fluid"/>
+              <p>PIAZZOLE</p>
+            </div>
+
+            <div className="overBG">
+              <button>scopri le piazzole</button>
+            </div>
+          </div>
+          <div className="bungalow">
+          <div className="containerTitleTentBungalow">
+          <img src="https://www.valdisolecamping.it/_site/_img/_icon/bungalow.svg" alt="" className="img-fluid"/>
+              <p>BUNGALOW</p>
+            </div>
+            <div className="overBG">
+              <button>scopri i bungalow</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
