@@ -155,6 +155,23 @@ div.infoContainer {
 }
 
 @media (width < 700px) {
+
+    div.infoCaptionContainer {
+        width: 90%;
+        margin: auto;
+        h2 {
+            margin-top: 8px;
+            font-size: 3rem;
+            text-align: center;
+        }
+        p {
+            width: 90%;
+            margin: auto;
+            margin-bottom: 3rem;
+            font-size: 1.2rem;
+        }
+    }
+
     .containerImgTentBungalow {
         display: flex;
         flex-direction: column;
